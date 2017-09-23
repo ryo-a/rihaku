@@ -1,0 +1,75 @@
+.line-wrapper {
+    display: flex;
+    flex-flow: column wrap-reverse;
+    align-items: center;
+    
+    height: 300px;
+    width: 200px;
+}
+
+.char-container {
+    display: flex;
+    flex-flow: row-reverse;
+    align-content: space-between;
+    margin-bottom: 10px;
+    z-index: 0;
+}
+
+.vertical {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}
+
+.right {
+    display: flex;
+    line-height: 140%;
+}
+
+.left {
+    display: flex;
+    line-height: 140%;
+}
+
+.main {
+    display: flex;
+    align-items: flex-end;
+    line-height: 160%;
+}
+
+.char {
+    font-size: 2em;
+}
+
+.assist {
+    font-size: 0.8em;
+}
+
+.kunten {
+    width: 1.3em;
+}
+
+
+/*一レ、上レについてはSVGでもいいのでは*/
+
+.ichire{
+    letter-spacing: -0.75em;
+}
+
+.joure{
+    letter-spacing: -0.25em;
+}
+
+.question-box{
+    border: 3px solid #000;
+    text-align: center;
+    height:2em;
+    font-size:1.8em;
+    margin-bottom:10px;
+}
+
+.question-line{
+    
+
+
+}
